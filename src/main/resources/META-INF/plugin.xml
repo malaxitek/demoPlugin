@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>com.demo.plugin.demoPlugin</id>
+    <name>demoPlugin</name>
+    <vendor> email="" url=""</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="demoPlugin" class="demoPlugin" text="demoPlugin" description="demo Plugin">
+            <keyboard-shortcut keymap="$default" first-keyatroke="ctrl alt BACK_SLASH"/>
+        </action>
+    </actions>
+
+</idea-plugin>
