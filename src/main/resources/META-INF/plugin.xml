@@ -10,7 +10,7 @@
 
     <actions>
         <action id="demoPlugin" class="demoPlugin" text="demoPlugin" description="demo Plugin">
-            <keyboard-shortcut keymap="$default" first-keyatroke="ctrl alt BACK_SLASH"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt BACK_SLASH"/>
         </action>
     </actions>
 
